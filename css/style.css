@@ -460,7 +460,7 @@
   border: none;
 }
 .slider-controls .current-control{
-  background-image: url(/img/slides/button-slider.svg);
+  background-image: url(../img/slides/button-slider.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
