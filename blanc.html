@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy:Нёрдс</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page-body">
+    <header class="header">
+      <nav class="nav">
+        <a class="header-logo" href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип"></a>
+        <ul class="site-nav">
+          <li><a href="#">студия</a></li>
+          <li><a href="#">клиенты</a></li>
+          <li><a href="catalog.html">магазин</a></li>
+          <li><a href="#">контакты</a></li>
+        </ul>
+        <div class="cart-icon"></div>
+        <a class="cart-link" href="#">корзина</a>
+      </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer class="footer">
+      <section class="footer-map">
+        <h2>Карта</h2>
+        <!--здесь будет карта-->
+        <img src="img/map.jpg" width="1440" height="416" alt="Карта">
+        <img src="img/map-marker.png" width="231" height="190" alt="Местонахождение на карте">
+      </section>
+      <section class="footer-contacts">
+        <h2>Контактная информация</h2>
+        <p>NЁRDS DESIGN STUDIO</p>
+        <p>наб. Реки Карповки,<br>
+          5 лит П, Санкт-Петербург</p>
+        <p><a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a></p>
+        <a class="button" href="#">Напишите нам</a>
+      </section>
+      <section class="footer-social">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей</p>
+        <ul class="social-list">
+          <li><a class="social-button" href="#"><img src="img/icons/vk-icon.svg" width="27" height="27" alt="ВК"></a></li>
+          <li><a class="social-button" href="#"><img src="img/icons/fb-icon.svg" width="27" height="27" alt="Фейсбук"></a></li>
+          <li><a class="social-button" href="#"><img src="img/icons/insta-icon.svg" width="27" height="27" alt="Инстаграм"></a></li>
+        </ul>
+      </section>
+    </footer>
+    <section class="modal">
+      <h2>Напишите нам</h2>
+      <button class="modal-close" type="button"><img src="img/icons/close-cross.svg" width="21" height="21" alt="Закрыть"></button>
+      <form class="message-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="message-name">Ваше имя:</label><br>
+          <input class="input-name" id="message-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="message-email">Ваш email:</label><br>
+          <input class="input-email" id="message-email" type="email" name="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="message-message">Текст письма:</label><br>
+          <textarea class="input-message" id="message-message" name="message" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="button message-button" type="submit">Отправить</button>
+      </form>
+    </section>
+
+  </body>
+</html>
