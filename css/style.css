@@ -1059,6 +1059,7 @@
 }
 .product-description .button{
   width: 200px;
+  padding: 0;
   padding-top: 15px;
   padding-bottom: 17px;
 }
